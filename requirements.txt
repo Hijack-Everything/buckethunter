@@ -1,0 +1,5 @@
+argparse
+requests
+beautifulsoup4
+google-api-python-client
+sublist3r
