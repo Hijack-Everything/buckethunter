@@ -34,8 +34,8 @@ BucketHunter supports discovering and analyzing buckets on the following platfor
 ### ⚙️ Get Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Hijack-Everything/Bucket-Hunter.git
-   cd Bucket-Hunter
+   git clone https://github.com/Hijack-Everything/buckethunter.git
+   cd buckethunter
    ```
 2. Install dependencies:
    ```bash
