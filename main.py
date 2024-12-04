@@ -67,8 +67,8 @@ def main():
     if args.domain:
         print(f"\nAnalyzing single domain: {args.domain}")
         domain_results = {"domain": args.domain}
-        domain_results["analysis"] = analyze_domain(args.domain)
-        domain_results["storage_scan"] = scan_storage(args.domain, [], scan_subdomains=False, threads=threads)
+        domain_results["Reverse_Lookup"], domain_results["Hosting_Provider"] = analyze_domain(args.domain)
+        domain_results["aws_storage_scan"], domain_results["gcp_storage_scan"], domain_results["azure_storage_scan"] = scan_storage(args.domain, [], scan_subdomains=False, threads=threads)
 
         # GrayHatWarfare Search
         if args.grayhatwarfare or args.all:
