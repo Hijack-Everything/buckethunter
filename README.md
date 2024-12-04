@@ -47,7 +47,7 @@ BucketHunter supports discovering and analyzing buckets on the following platfor
 
 Run the tool with `main.py` and explore its powerful options!
 
-### 🔧 Command-Line Options
+## 🔧 Command-Line Options
 
 | **Option**           | **Description**                                                                          |
 |-----------------------|------------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Run the tool with `main.py` and explore its powerful options!
 | `-t, --threads`       | Set the number of threads for faster bucket scanning (default: 100).                     |
 | `-o, --output`        | Specify the output file name to save results in JSON format.                             |
 
-### ⚡ Examples
+## ⚡ Examples
 
 1. **Analyze a Single Domain**:
    ```bash
@@ -86,6 +86,36 @@ Run the tool with `main.py` and explore its powerful options!
    ```bash
    python main.py -d example.com -o results.json
    ```
+
+## 🗂️ Example `config.json`
+
+To use the Google Custom Search API for company name extraction, provide your API key and Custom Search Engine (CSE) ID in a `config.json` file:
+
+```json
+{
+    "api_key": "YOUR_CSE_API_KEY",
+    "cse_id": "YOUR_CUSTOM_SEARCH_ENGINE_ID"
+}
+```
+
+Replace the placeholder values with your actual **CSE API Key** and **Custom Search Engine ID**.
+
+
+## ✨ How to Generate the `api_key` and `cse_id`
+
+1. **Create a Custom Search Engine (CSE)**:
+   - Go to the [Google Custom Search Engine](https://cse.google.com/cse/).
+   - Click on `New Search Engine`.
+   - Under `Sites to Search`, add `*` (wildcard) to enable searching across all websites.
+   - Click on `Create`.
+   - Open the newly created search engine and navigate to `Control Panel`.
+   - Copy the `Search engine ID` (CSE ID) from the **Basics** section.
+
+2. **Find the CSE API Key**:
+   - In the same **Control Panel** where the search engine was created, click on `Get Started` under the **Custom Search JSON API** section.
+   - This will guide you to enable the API and provide you with the **API Key**.
+   - Copy the key and use it in your `config.json`.
+
 
 
 ## 💡 Behind the Scenes
