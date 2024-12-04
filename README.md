@@ -3,6 +3,8 @@
 
 BucketHunter is your friendly tool in discovering and analyzing cloud storage buckets! This project makes exploring AWS S3, GCP Storage, Azure Blob, DigitalOcean Spaces, and Alibaba Cloud OSS buckets simple and efficient. It even lets you peek inside accessible buckets to uncover files and valuable insights. 🔍
 
+![image](https://github.com/user-attachments/assets/ed0705e3-07a8-4711-86c8-603dd1edd82b)
+
 
 ## ☁️ Supported Storages
 
