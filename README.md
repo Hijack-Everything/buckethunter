@@ -145,7 +145,7 @@ BucketHunter is built with a modular architecture. Each module handles a specifi
 
 ## 🌍 Contributions & Support
 
-Have ideas for improvements or new features? Contributions are welcome! Feel free to open an issue or submit a pull request to help make BucketHunter even better.  
+Have ideas for improvements or new features? Contributions are welcome! Feel free to open a conversation on Discussions to help make BucketHunter even better.  
 
 If you like the project, don’t forget to **star this repository** to show your support. ⭐  
 
